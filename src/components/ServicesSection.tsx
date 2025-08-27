@@ -3,20 +3,20 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const services = [
   {
-    title: 'Strategic Investments',
-    description: 'Carefully curated investment opportunities across diverse markets and sectors.',
+    title: 'Consulting',
+    description: 'Operational consulting services delivered to our strategic partners for enhanced business efficiency.',
   },
   {
-    title: 'Portfolio Management',
-    description: 'Active management and optimization of investment portfolios for maximum returns.',
+    title: 'Real Estate',
+    description: 'Direct investments in premium properties and real estate development projects across key markets.',
   },
   {
-    title: 'Strategic Partnerships',
-    description: 'Building lasting relationships with industry leaders and innovative companies.',
+    title: 'Financial Markets Investor',
+    description: 'Active participation in global financial markets through sophisticated trading and investment strategies.',
   },
   {
-    title: 'Corporate Advisory',
-    description: 'Expert guidance on mergers, acquisitions, and strategic business decisions.',
+    title: 'Software & AI',
+    description: 'Custom automation and AI solutions for partners, alongside proprietary digital products and platforms.',
   },
 ];
 
@@ -26,10 +26,10 @@ const ServicesSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-semibold text-gradient mb-6">
-            Our Expertise
+            Portfolio Industries
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Delivering excellence through comprehensive investment solutions and strategic guidance
+            Industries where our portfolio companies operate and our core business activities
           </p>
         </div>
 
