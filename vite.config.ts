@@ -11,10 +11,10 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
+    mode === 'production' &&
     componentTagger(),
   ].filter(Boolean),
-  base: "/rh.github.io",
+  base: "/rh-page",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
